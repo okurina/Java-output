@@ -12,9 +12,9 @@
 * 変数を定義するには、①変数に入れる値のデータ型を指定する　②変数の名前を決める  
 　ex) int number; String name; ※Sは大文字  
 *「変数名 = 値」で代入
-* System.out.println()の()に変数をいれると値を取り出す
+* System.out.println()の()に変数をいれると値を取り出す  
 　ex) System.out.println(number);  
-* 変数定義と同時に値を代入することを変数の初期化と呼ぶ
+* 変数定義と同時に値を代入することを変数の初期化と呼ぶ  
 　ex)int number = 3;  
      String text = "Hello World";  
 * 数値が入った変数なら、数値と同様に計算が可能。数値と変数の計算も、変数同士の計算もできる。  
