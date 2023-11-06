@@ -37,3 +37,7 @@
      System.out.println(x); ⇒3  
      x = x + 2  
      System.out.println(x); ⇒5
+
+# 11/6
+* 「userName」のように2語以上の変数名を使うときは、単語の始めを大文字にして区切る
+* double型：少数を扱う
