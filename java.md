@@ -1,5 +1,11 @@
 # 11/3
 * クラス部分、メソッド部分、処理部分という構造
+* 基本形  
+public class Main {  
+    public static void main(String[] args) {  
+        System.out.println("Hello world");  
+    }  
+}  
 * データの出力
   System.out.println()  =「()の中身(引数)を出力せよ」という「命令」のメソッド
 * 文の終わりにはセミコロンを必ずつけること
