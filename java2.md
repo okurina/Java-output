@@ -3,6 +3,7 @@
 * /* ~ */：複数行にまたがる
 
 # データの受け取り(入力タブ)
+```
 import java.util.*;  #データを受け取る機能をプログラムの中で扱えるようにする  
   
 public class Main {  
@@ -11,7 +12,8 @@ public class Main {
         String text = scan.next();  #nextという入力データを読み込むメソッドを呼び出す  
         System.out.println(text);  
     }  
-}  
+}
+``` 
 
 # 整数データの受け取り
 import java.util.*;  #データを受け取る機能をプログラムの中で扱えるようにする  
