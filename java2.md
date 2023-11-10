@@ -20,6 +20,7 @@ public class Main {
     public static void main(String[] args) {  
         Scanner scan = new Scanner(System.in);  #変数scanにデータを受け取る機能を割り当てる  
         int number = scan.nextInt();  #nextという入力データを読み込むメソッドを呼び出す ※Iは大文字  
-        System.out.println(number * 10);  ※計算も可能  
+        System.out.println(number * 10);  ※計算も可能
+        System.out.println("おこづかい" + number + "円"); ※文字列と連結  
     }  
 }  
