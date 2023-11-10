@@ -16,6 +16,7 @@ public class Main {
 ``` 
 
 # 整数データの受け取り
+```
 import java.util.*;  #データを受け取る機能をプログラムの中で扱えるようにする  
   
 public class Main {  
@@ -25,9 +26,11 @@ public class Main {
         System.out.println(number * 10);  ※計算も可能
         System.out.println("おこづかい" + number + "円"); ※文字列と連結  
     }  
-}  
+}
+``` 
 
 # if 条件分岐
+```
 import java.util.*;  
 
 public class Main {  
@@ -40,4 +43,5 @@ public class Main {
             System.out.println("Welcome");  
         }  ※セミコロン必要なし  
     }  
-}  
+}
+``` 
