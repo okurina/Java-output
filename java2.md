@@ -24,3 +24,18 @@ public class Main {
         System.out.println("おこづかい" + number + "円"); ※文字列と連結  
     }  
 }  
+
+# if 条件分岐
+import java.util.*;  
+
+public class Main {  
+    public static void main(String[] args) {  
+        Scanner scan = new Scanner(System.in);  
+        int number = scan.nextInt();  
+        System.out.println(number);  
+
+        if (number == 10) {  ※関係演算子  
+            System.out.println("Welcome");  
+        }  ※セミコロン必要なし  
+    }  
+}  
