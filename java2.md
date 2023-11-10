@@ -13,3 +13,13 @@ public class Main {
     }  
 }  
 
+# 整数データの受け取り
+import java.util.*;  #データを受け取る機能をプログラムの中で扱えるようにする  
+  
+public class Main {  
+    public static void main(String[] args) {  
+        Scanner scan = new Scanner(System.in);  #変数scanにデータを受け取る機能を割り当てる  
+        int number = scan.nextInt();  #nextという入力データを読み込むメソッドを呼び出す
+        System.out.println(number);  
+    }  
+}  
