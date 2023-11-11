@@ -41,8 +41,10 @@ public class Main {
 
         if (number == 10) {  ※関係演算子  
             System.out.println("Welcome");
+        } elsif (number > 10) {
+            System.out.println("Goodmorning");
         } else {
-            System.out.plintln("Goodbye"); 
+            System.out.println("Goodbye"); 
         }  ※セミコロン必要なし  
     }  
 }
