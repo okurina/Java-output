@@ -40,8 +40,10 @@ public class Main {
         System.out.println(number);  
 
         if (number == 10) {  ※関係演算子  
-            System.out.println("Welcome");  
+            System.out.println("Welcome");
+        } else {
+            System.out.plintln("Goodbye"); 
         }  ※セミコロン必要なし  
     }  
 }
-``` 
+```
