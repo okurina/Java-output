@@ -41,7 +41,7 @@ public class Main {
 
         if (number == 10) {  ※関係演算子  
             System.out.println("Welcome");
-        } elsif (number > 10) {
+        } else if (number > 10) {  ※elsifではない
             System.out.println("Goodmorning");
         } else {
             System.out.println("Goodbye"); 
