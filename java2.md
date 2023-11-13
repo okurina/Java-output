@@ -49,3 +49,23 @@ public class Main {
     }  
 }
 ```
+
+# if 一致判定
+```
+import java.util.*;  
+
+public class Main {  
+    public static void main(String[] args) {  
+        Scanner scan = new Scanner(System.in);  
+        int number = scan.nextInt();  
+        System.out.println(number);  
+
+        if (name.equals("Java"))) {   
+            System.out.println("Welcome");
+        } else if (number > 10) {  ※elsifではない
+            System.out.println("Goodmorning");
+        } else {
+            System.out.println("Goodbye"); 
+        }  
+    }  
+}
