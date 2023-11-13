@@ -57,15 +57,17 @@ import java.util.*;
 public class Main {  
     public static void main(String[] args) {  
         Scanner scan = new Scanner(System.in);  
-        int number = scan.nextInt();  
-        System.out.println(number);  
+        String name = scan.next();  
+        System.out.println("Hello " + name);  
 
-        if (name.equals("Java"))) {   
+        if (name.equals("Java"))) {   ※変数nameがJavaだった時  
             System.out.println("Welcome");
-        } else if (number > 10) {  ※elsifではない
-            System.out.println("Goodmorning");
+        } else if (name.equals("JAVA")) {  ※elsifではない
+            System.out.println("Good morning");
         } else {
             System.out.println("Goodbye"); 
         }  
     }  
 }
+```
+
