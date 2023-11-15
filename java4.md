@@ -7,5 +7,5 @@ public class Main {
         System.out.print("<b>こんにちは</b></p>");
     }
 }
-※println ⇒ printにすると、改行されず続けて表示される
+※println ⇒ printにすると、textでは改行されず続けて表示される
 ```
