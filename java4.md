@@ -9,4 +9,3 @@ public class Main {
 }
 ※println ⇒ printにすると、改行されず続けて表示される
 ```
-
