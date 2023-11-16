@@ -13,7 +13,6 @@ public class Main {
 * 文の終わりにはセミコロンを必ずつけること
 * 数値は""で囲まない、記号は半角で入力する
   ex) System.out.println(3 + 2)
-  
 
 # 変数
 * 変数を定義するには、①変数に入れる値のデータ型を指定する　②変数の名前を決める  
@@ -58,7 +57,7 @@ public class Main {
 * System.out.print(data) ：指定したデータを出力する（改行なし）
 * Math.random() ：0から1未満のランダムな数値を出力する
 
-# 11/7
+# その他
 * double型：少数を扱う
 * boolean型：真偽値のデータ型　※true, falseにはダブルクォーテーションは付けない
 * 演算子はRubyと同様
