@@ -56,7 +56,7 @@ public class Main {
 * System.out.println(data) ：指定したデータを出力する（改行あり）
 * System.out.print(data) ：指定したデータを出力する（改行なし）
 * Math.random() ：0から1未満のランダムな数値を出力する  
-  ex) double rand = Math.random() * 100 + 1  ※1-100のランダムな数字
+  ex) double rand = Math.random() * 100 + 1  ※1-100のランダムな数字  
       int number = (int)rand;  ※小数点以下を切り捨て
 
 # その他
