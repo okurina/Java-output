@@ -14,7 +14,7 @@ public class Main {
 ```
 public class Main {
 	public static void main(String[] args) {
-		double rand = Math.random() *100 + 1
+		double rand = Math.random() *3 + 1 ※1-3までのランダムな数字
 		int number = (int)rand; ※double型からint型へ変換
 		System.out.println(number);
 	}
