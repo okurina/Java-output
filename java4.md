@@ -24,9 +24,9 @@ public class Main {
 ```
 public class Main {
 	public static void main(String[] args) {
-		int number = 100;
-		System.out.println(number + 30);
-		System.out.println(number + number);
+		int number = (97 + 3) * 2 ; ※200 :*%がある場合、()があればのその中を優先的に計算する
+		System.out.println(number + 30); ※230
+		System.out.println(number + number); ※400
 	}
 }
 ```
