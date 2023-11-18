@@ -35,10 +35,12 @@ public class Main {
 ```
 public class Main {
 	public static void main(String[] args) {
-		int number = 100;	// 数値
-		String text = "java";	// 文字列
+		int number = 100 + 30;	// 数値
+		String text = "hello" + "java";	// 文字列
 		System.out.println(number);
 		System.out.println(text);
+		System.out.println(number + text); ※130hellojava：130が文字列として自動的に変換される
+		System.out.println(number + 20); ※150
 	}
 }
 ```
