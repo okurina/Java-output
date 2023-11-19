@@ -18,8 +18,13 @@ public class Main {
 ```
 public class Main {
 	public static void main(String[] args) {
-
-	}
+          int number = (int)(Math.random() * 2 + 1);
+          if (number == 1) {
+		System.out.println("スキ！"); ※条件式が成立
+          } else {
+		System.out.println ("キライ");
+          }
+      }
 }
 
 ```
