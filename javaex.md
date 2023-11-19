@@ -1,4 +1,4 @@
-# 値段を計算する買い物アプリ
+# 買い物アプリ(値段の計算)
 ```
 public class Main {
 	public static void main(String[] args) {
@@ -14,6 +14,12 @@ public class Main {
 }
 ```
 
-# 「スキ/キライ」占い
+# 「スキ/キライ」占い（IF文の条件分岐）
 ```
+public class Main {
+	public static void main(String[] args) {
+
+	}
+}
+
 ```
