@@ -1,4 +1,4 @@
-# 値段を計算する
+# 値段を計算する買い物アプリ
 ```
 public class Main {
 	public static void main(String[] args) {
@@ -12,4 +12,8 @@ public class Main {
 
 	}
 }
+```
+
+# 「スキ/キライ」占い
+```
 ```
