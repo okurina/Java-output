@@ -1,4 +1,4 @@
-# 買い物アプリ(値段の計算)
+# 買い物アプリ（値段の計算）
 ```
 public class Main {
 	public static void main(String[] args) {
