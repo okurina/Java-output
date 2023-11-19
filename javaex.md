@@ -21,6 +21,8 @@ public class Main {
           int number = (int)(Math.random() * 2 + 1);
           if (number == 1) {
 		System.out.println("スキ！"); ※条件式が成立
+	  } else if (number == 2) {
+		System.out.println("どちらでもない");
           } else {
 		System.out.println ("キライ");
           }
