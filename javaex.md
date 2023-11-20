@@ -34,15 +34,19 @@ public class Main {
 ```
 public class Main {
 	public static void main(String[] args) {
-	  int omikuji = 1;
-	  System.out.println(omikuji);
+	  int omikuji = (int)(Math.random() * 10 + 1);
+	  //System.out.println(omikuji); ※デバック
 	  if (omikuji == 1) {
 		System.out.println("大吉");
 	  } else if (omikuji == 2) {
 		System.out.println("中吉");
 	　} else if (omikuji <= 4) {
-		System.out.println("小吉");
-	  }
+		System.out.println("小吉"); ※3.4
+	  } else if (omikuji <= 7) {
+		System.out.println("凶"); ※5.6.7 
+	  } else {
+		System.out.println("大凶"); ※上記以外
+　　　　　}
 	}
 }
 ```
