@@ -36,7 +36,13 @@ public class Main {
 	public static void main(String[] args) {
 	  int omikuji = 1;
 	  System.out.println(omikuji);
-
+	  if (omikuji == 1) {
+		System.out.println("大吉");
+	  } else if (omikuji == 2) {
+		System.out.println("中吉");
+	　} else if (omikuji <= 4) {
+		System.out.println("小吉");
+	  }
 	}
 }
 ```
