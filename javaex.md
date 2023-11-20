@@ -32,4 +32,11 @@ public class Main {
 
 # おみくじプログラム
 ```
+public class Main {
+	public static void main(String[] args) {
+	  int omikuji = 1;
+	  System.out.println(omikuji);
+
+	}
+}
 ```
