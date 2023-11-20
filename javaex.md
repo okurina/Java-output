@@ -30,7 +30,7 @@ public class Main {
 }
 ```
 
-# おみくじプログラム
+# おみくじプログラム（IF文の条件分岐・比較演算子）
 ```
 public class Main {
 	public static void main(String[] args) {
