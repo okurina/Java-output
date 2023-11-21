@@ -50,3 +50,18 @@ public class Main {
 	}
 }
 ```
+
+# RPGの戦闘シーン
+```
+public class Main {
+	public static void main(String[] args) {
+	    int hit = (int)(Math.random() * 10 + 1);
+	    //System.put.println(hit);
+	    if (hit < 6) {
+	        System.out.println("スライムに、" + hit "のダメージを与えた！");
+	    } else {
+	        System.out.println("クリティカルヒット！スライムに、100のダメージを与えた！");
+	    }
+	}
+}
+```
