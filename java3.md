@@ -75,7 +75,7 @@ public class Main {
 ```
 public class Main {
 	public static void main(String[] args) {
-		double rand = (Math.random() * 100) + 1; //
+		double rand = (Math.random() * 100) + 1; //1-100までのランダムな数字
 		int number3 = (int) rand;
 		System.out.println(number3);
 
