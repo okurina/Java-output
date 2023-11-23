@@ -73,4 +73,16 @@ public class Main {
 ```
 # 複数の条件を組み合わせる（AND）
 ```
+public class Main {
+	public static void main(String[] args) {
+          int number = (int)(Math.random() * 2 + 1);
+          if (number == 1) {
+		System.out.println("スキ！"); 
+	  } else if (number == 2) {
+		System.out.println("どちらでもない");
+          } else {
+		System.out.println ("キライ");
+          }
+      }
+}
 ```
