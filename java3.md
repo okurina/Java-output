@@ -23,7 +23,7 @@ public class Main {
         System.out.println(count);
 
         for (int i = 0; i < count; i++) {
-            System.out.println("Hello paiza");
+            System.out.println("Hello world");
         }
     }
 }
@@ -75,14 +75,15 @@ public class Main {
 ```
 public class Main {
 	public static void main(String[] args) {
-          int number = (int)(Math.random() * 2 + 1);
-          if (number == 1) {
-		System.out.println("スキ！"); 
-	  } else if (number == 2) {
-		System.out.println("どちらでもない");
-          } else {
-		System.out.println ("キライ");
-          }
+		double rand = (Math.random() * 100) + 1; //
+		int number3 = (int) rand;
+		System.out.println(number3);
+
+		if (number3 >= 30 && number3 <= 60) {
+    			System.out.println("当たり");
+		} else {
+    			System.out.println("残念！");
+		}
       }
 }
 ```
