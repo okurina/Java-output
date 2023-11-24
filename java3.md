@@ -54,7 +54,21 @@ public class Main {
       }
 }
 ```
-# 条件の評価結果
+# 条件の評価結果(論理型)
+*論理演算は、評価の結果として、trueかfalseを返す
+*trueかfalseかという条件の評価結果もデータなので、変数に代入することができる
 ```
+public class Main {
+    public static void main(String[] args) {
+        int number = 1;
+        boolean flag = number == 1;　//「number == 1」の評価結果を、flag変数に代入
+        if (flag) {
+            System.out.println("スキ！");   //条件が成立したときの処理
+        } else {
+            System.out.println("キライ");   //条件が成立しなかったときの処理
+        }
+        System.out.println(flag);
+    }
+}
 ```
 
