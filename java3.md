@@ -55,8 +55,8 @@ public class Main {
 }
 ```
 # 条件の評価結果(論理型)
-*論理演算は、評価の結果として、trueかfalseを返す
-*trueかfalseかという条件の評価結果もデータなので、変数に代入することができる
+* 論理演算は、評価の結果として、trueかfalseを返す
+* trueかfalseかという条件の評価結果もデータなので、変数に代入することができる
 ```
 public class Main {
     public static void main(String[] args) {
