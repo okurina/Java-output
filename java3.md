@@ -61,13 +61,12 @@ public class Main {
 public class Main {
     public static void main(String[] args) {
         int number = 1;
-        boolean flag = number == 1;　//「number == 1」の評価結果を、flag変数に代入
+        boolean flag = number == 1;　//「number == 1」の評価結果を、flag変数に代入する
         if (flag) {
             System.out.println("スキ！");   //条件が成立したときの処理
         } else {
             System.out.println("キライ");   //条件が成立しなかったときの処理
         }
-        System.out.println(flag);
     }
 }
 ```
