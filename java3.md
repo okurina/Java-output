@@ -28,9 +28,9 @@ public class Main {
 	public static void main(String[] args) {
 		double rand = (Math.random() * 100) + 1; //1-100までのランダムな数字
 		int number3 = (int) rand;
-		System.out.println(number3);
+		System.out.println(number);
 
-		if (number3 >= 30 && number3 <= 60) { //30以下、かつ60以上の時
+		if (number >= 30 && number <= 60) { //30以下、かつ60以上の時
     			System.out.println("当たり");
 		} else {
     			System.out.println("残念！");
@@ -44,9 +44,9 @@ public class Main {
 	public static void main(String[] args) {
 		double rand = (Math.random() * 100) + 1; //1-100までのランダムな数字
 		int number3 = (int) rand;
-		System.out.println(number3);
+		System.out.println(number);
 
-		if (number3 >= 30 || number3 <= 60) { //30以下、または60以上の時
+		if (number >= 30 || number <= 60) { //30以下、または60以上の時
     			System.out.println("当たり");
 		} else {
     			System.out.println("残念！");
