@@ -10,13 +10,21 @@ public class Main {
 ※println ⇒ printにすると、textでは改行されず続けて表示される
 ```
 
-# 型変換
+# 型変換(データのキャスト)
 ```
 public class Main {
 	public static void main(String[] args) {
-		double rand = Math.random() *3 + 5; ※5-7（5から3つ分）までのランダムな数字
-		int number = (int)rand; ※double型からint型へ変換
+		double rand = Math.random() *3 + 5; //5-7（5から3つ分）までのランダムな数字
+		int number = (int)rand; //double型からint型へ変換
 		System.out.println(number);
+
+		double number1 = 3.14;
+		System.out.println(number); //3.14
+    		System.out.println((int) number1); //3 実数を整数データに変換
+
+		int number2 = 3;
+		System.out.println(number2); //3
+    		System.out.println((double) number2); //3.0 整数を実数データに変換
 	}
 }
 ```
@@ -25,8 +33,11 @@ public class Main {
 public class Main {
 	public static void main(String[] args) {
 		int number = (97 + 3) * 2 ; ※200 :*%がある場合、()があればのその中を優先的に計算する
-		System.out.println(number + 30); ※230
-		System.out.println(number + number); ※400
+		System.out.println(number + 30); //230
+		System.out.println(number + number); //400
+
+		System.out.println(10/3); //3
+		System.out.println(10/3.0) //3.3333333335
 	}
 }
 ```
@@ -42,7 +53,4 @@ public class Main {
 		System.out.println(number + 20); ※150
 	}
 }
-```
-# データの計算
-```
 ```
