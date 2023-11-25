@@ -30,7 +30,6 @@ public class Main {
 	}
 }
 ```
-
 # データの種類
 ```
 public class Main {
@@ -43,4 +42,7 @@ public class Main {
 		System.out.println(number + 20); ※150
 	}
 }
+```
+# データの計算
+```
 ```
