@@ -25,6 +25,11 @@ public class Main {
 		int number2 = 3;
 		System.out.println(number2); //3
     		System.out.println((double) number2); //3.0 整数を実数データに変換
+
+		String text = "123";
+		System.out.println(text); //123
+		System.out.println(Integer.parseInt(text)); //123 文字列をint型に変換するメソッド
+		System.out.println(Double.parseDouble(text)); //123.0
 	}
 }
 ```
