@@ -28,8 +28,8 @@ public class Main {
 
 		String text = "123";
 		System.out.println(text); //123
-		System.out.println(Integer.parseInt(text)); //123 文字列をint型に変換するメソッド
-		System.out.println(Double.parseDouble(text)); //123.0
+		System.out.println(Integer.parseInt(text)*10); //1230 parseIntメソッドは文字列をint型に変換する
+		System.out.println(Double.parseDouble(text)*10); //1230.0  parseDoubleメソッドは文字列をdouble型に変換する
 	}
 }
 ```
