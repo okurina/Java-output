@@ -13,6 +13,16 @@ public class Main {
 ```
 # ループ処理(while)
 ```
+public class Main {
+    public static void main(String[] args) {
+        int i = 0; // カウンタ変数の初期化
+        while (i <= 5) { //0,1,2,3,4,5
+            System.out.println("hello world" + i)// 繰り返し処理
+            i = i + 1; // カウンタ変数の更新
+        }
+        System.out.println("last" + i); //6
+    }
+}
 ```
 
 # 繰り返し回数を受け取る
