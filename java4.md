@@ -1,4 +1,4 @@
-# ループ処理
+# ループ処理(for)
 ```
 public class Main {
     public static void main(String[] args) {
@@ -10,6 +10,9 @@ public class Main {
         }
     }
 }
+```
+# ループ処理(while)
+```
 ```
 
 # 繰り返し回数を受け取る
